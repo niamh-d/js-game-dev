@@ -1,0 +1,56 @@
+body {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  color: #333;
+}
+
+.grid {
+  padding: 20px;
+  margin: 50px 0 0 50px;
+  width: 400px;
+  height: 700px;
+  background-color: yellow;
+  position: relative;
+  font-size: 50px;
+  text-align: center;
+  background-image: url("background.png");
+}
+
+.btn--start {
+  margin: 20px 0 0 50px;
+  text-align: center;
+  width: 400px;
+  font-size: 30px;
+  padding: 20px;
+  background-color: antiquewhite;
+  border: 2px solid #333;
+  border-radius: 5px;
+}
+
+.doodler {
+  width: 87px;
+  height: 85px;
+  position: absolute;
+  background-image: url("doodler.png");
+}
+
+.platform {
+  width: 85px;
+  height: 15px;
+  background-color: green;
+  position: absolute;
+  background-image: url("platform.png");
+}
+
+button {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  border: none;
+  color: black;
+  background-color: white;
+  height: 80px;
+  width: 80px;
+  z-index: 100;
+}

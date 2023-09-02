@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Doggie Animation</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <canvas id="canvas1"></canvas>
+    <div class="controls">
+      <div>
+        <label for="animationType">Choose Animation Type:</label>
+        <select name="animationType" id="animationType">
+          <option value="idle">Idle</option>
+          <option value="jump">Jump</option>
+          <option value="fall">Fall</option>
+          <option value="run">Run</option>
+          <option value="dizzy">Dizzy</option>
+          <option value="sit">Sit</option>
+          <option value="roll">Roll</option>
+          <option value="bite">Bite</option>
+          <option value="ko">Knock Out</option>
+          <option value="getHit">Get Hit</option>
+        </select>
+      </div>
+      <div class="second-selection">
+        <label for="animationType">Choose Animation Speed:</label>
+        <select name="animationSpeed" id="animationSpeed">
+          <option value="4">Normal</option>
+          <option value="8">Slow</option>
+          <option value="1">Fast</option>
+        </select>
+      </div>
+    </div>
+    <div class="credit">
+      <p>
+        Coded up by <span class="author">Niamh</span> following a
+        <a href="https://www.youtube.com/watch?v=CY0HE277IBM" target="_blank"
+          >JS animations tutorial</a
+        >
+        by
+        <a
+          class="author"
+          href="https://www.youtube.com/@Frankslaboratory"
+          target="_blank"
+          >Franks Laboratory</a
+        >. Shadow Dog art by
+        <a
+          class="author"
+          href="https://bevouliin.com/shadow-dog-sprites-with-stickman-style/"
+          target="_blank"
+          >bevouliin</a
+        >.
+      </p>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
